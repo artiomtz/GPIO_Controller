@@ -1,6 +1,6 @@
 # GPIO_Controller
  
- This project was done for the STM32F407VGT6 with an ARM cortex-M4.
+ This project was done on CubeIDE for the STM32F407VGT6 with an ARM cortex-M4.
  It connects to a PC via USB and offers the following:
 
 •	 Command line interface via USB (virtual com port).
