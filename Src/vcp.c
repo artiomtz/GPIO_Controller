@@ -1509,8 +1509,8 @@ void loadFromFlash (void)
 		adcDropError = rxFlash[5];
 		chStates = rxFlash[6];
 
-		adcDropWarning /= 10; // /10 to restore numbers after point
-		adcDropError /= 10; // /10 to restore numbers after point
+		adcDropWarning /= 10; // divide by 10 to restore numbers after point
+		adcDropError /= 10; // divide by 10 to restore numbers after point
 
 		if (rxFlash[7] != 0xFFFFFFFF) // load ADC1 scaling
 		{
