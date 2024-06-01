@@ -4,3 +4,6 @@ Drivers/
 Middlewares/
 .svn/
 .mxproject
+
+Inc/Lib
+Src/Lib
